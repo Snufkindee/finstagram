@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 @layer components {
   .card {
     @apply border-[1px] border-gray-300 rounded-lg bg-white px-5 p-4 max-w-[30rem] mx-auto
